@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Web Gallery</title>
+    <link href="./style/main.css" rel="stylesheet" type="text/css"/>
+    <link href="./style/index.css" rel="stylesheet" type="text/css"/>
+    <link href="./style/form.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Web Gallery</h1>
+    </header>
+    <div id="current_user"></div>
+    <div id="mainerror"></div>
+    <p id= "welcomewords">Click here to sign in<a href='./signin.html' id="signinbtn">Sign In</a> or <a href='./signup.html' id="signupbtn">Ceate a new account</a></p>
+    <p id="signoutbtn">Sign Out</p>
+    <button id = "choose_gallery_button" class="choose_button">Browse other galleries</button>
+    <ul id="browse_list">
+    </ul>
+
+    <div class="picture_block">
+        <div id="picture_button_left">
+            <button class="left_hover_button"><span>Previous image </span></button>
+        </div>
+
+        <div class="picture_show" id="">
+            <div id="picture_current" class="picture_self"></div>
+            <p id="picture_information_name" class="picture_introduction"></p>
+            <p id="picture_information_author" class="picture_introduction"></p>
+            <button id = "delete_image_button" class="delete_button">Delete this image</button>
+        </div>
+        <div id="picture_button_right">
+            <button class="right_hover_button"><span>Next image </span></button>
+        </div>
+
+    </div>
+
+    <button id="upload_button" class="upload_button">Upload</button>
+    
+    <form class="upload_form" id="upload_form_id">
+          <div class="form_title">Upload your own image!</div>
+          <textarea id="image_title" class="form_element" placeholder="Enter the image title"></textarea>
+            <div>
+              <input type="radio" id="urlradio"name="url" value="url" checked> URL
+              <input type="radio" id="fileradio"name="file" value="fileupload"> File upload
+            </div>
+          <div>
+            <input type="file" id="fileupload">       
+          </div>
+          <textarea id="urlupload" class="form_element" placeholder="Enter the image url"></textarea>
+          <input type="submit" id="upload_submit_button" class="btn"/>
+    </form>
+
+
+    <form class="comment_form" id="create_comment_form">
+      <div class="form_title">Comment this image!</div>
+      <textarea id="create_comment_content" class="form_element" placeholder="Enter your comment"  rows="5"></textarea>
+      <input type="submit" class="btn"/>
+    </form>
+
+    <div id = "comments_block">
+        <div id="comments_button_left">
+            <button class="left_hover_button_comment"><span>Last 10 comments</span></button>
+        </div>
+        <div id="comments"></div>
+        <p id="page_number">Page 0</p>
+        <div id="comments_button_right">
+                <button class="right_hover_button_comment"><span>Next 10 comments </span></button>
+        </div>
+
+   </div>
+    <footer>
+        <a href='./credits.html'>credits</a>
+    </footer>
+    <script src="js/view.js"></script>
+    <script src="js/model.js"></script>
+    <script src="js/controller.js"></script>
+</body>
+</html>

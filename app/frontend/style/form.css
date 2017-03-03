@@ -1,0 +1,327 @@
+.upload_form{
+    margin-top:20px;
+    border-radius: 10px;
+    border: 2px #3C3D3F solid;
+    padding:20px 10px 10px 10px;
+    display:flex;
+    flex-direction: column;
+    width: 60%;
+    display:none;
+}
+
+.upload_form .form_title{
+    font-size:20px;
+    font-weight:bold;
+    margin:-20px -10px 20px -10px;
+    padding:10px 0px 10px 25px;
+    color:white;
+    background-color: #3C3D3F;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.upload_form .form_radio{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.upload_form .form_element{
+     margin-bottom:10px;
+     font-size: 20px;
+     border-radius:10px;
+     padding:5px 10px 5px 10px;
+}
+
+/* This snippet of code was generated using: http://css3buttongenerator.com/ */
+
+.upload_form .btn{
+    border-radius:10px;
+    text-align:center;
+    font-size: 20px;
+    color: #3C3D3F;
+    background: #ffffff;
+    border: 2px #3C3D3F solid;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.upload_form .btn:hover {
+  background: #3C3D3F;
+  color: #ffffff;
+}
+
+.comment_form{
+    margin-top:20px;
+    border-radius: 10px;
+    border: 2px #3C3D3F solid;
+    padding:20px 10px 10px 10px;
+    display:flex;
+    flex-direction: column;
+    width: 60%
+}
+
+.comment_form .form_title{
+    font-size:20px;
+    font-weight:bold;
+    margin:-20px -10px 20px -10px;
+    padding:10px 0px 10px 25px;
+    color:white;
+    background-color: #3C3D3F;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.comment_form .form_element{
+     margin-bottom:10px;
+     font-size: 20px;
+     border-radius:10px;
+     padding:5px 10px 5px 10px;
+}
+
+/* This snippet of code was generated using: http://css3buttongenerator.com/ */
+
+.comment_form .btn{
+    border-radius:10px;
+    text-align:center;
+    font-size: 20px;
+    color: #3C3D3F;
+    background: #ffffff;
+    border: 2px #3C3D3F solid;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.comment_form .btn:hover {
+    background: #3C3D3F;
+    color: #ffffff;
+}
+
+.comment_form{
+    margin-top:20px;
+    border-radius: 10px;
+    border: 2px #3C3D3F solid;
+    padding:20px 10px 10px 10px;
+    display:flex;
+    flex-direction: column;
+    width: 60%
+}
+
+.comment_form .form_title{
+    font-size:20px;
+    font-weight:bold;
+    margin:-20px -10px 20px -10px;
+    padding:10px 0px 10px 25px;
+    color:white;
+    background-color: #3C3D3F;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.comment_form .form_element{
+     margin-bottom:10px;
+     font-size: 20px;
+     border-radius:10px;
+     padding:5px 10px 5px 10px;
+}
+
+/* This snippet of code was generated using: http://css3buttongenerator.com/ */
+
+.comment_form .btn{
+    border-radius:10px;
+    text-align:center;
+    font-size: 20px;
+    color: #3C3D3F;
+    background: #ffffff;
+    border: 2px #3C3D3F solid;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.comment_form .btn:hover {
+    background: #3C3D3F;
+    color: #ffffff;
+}
+
+.signin_form{
+    margin-top:20px;
+    border-radius: 10px;
+    border: 2px #3C3D3F solid;
+    padding:20px 10px 10px 10px;
+    display:flex;
+    flex-direction: column;
+    width: 60%
+}
+
+.signinform .form_title{
+    font-size:20px;
+    font-weight:bold;
+    margin:-20px -10px 20px -10px;
+    padding:10px 0px 10px 25px;
+    color:white;
+    background-color: #3C3D3F;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.signin_form .form_element{
+     margin-bottom:10px;
+     font-size: 20px;
+     border-radius:10px;
+     padding:5px 10px 5px 10px;
+}
+
+/* This snippet of code was generated using: http://css3buttongenerator.com/ */
+
+.signin_form .btn{
+    border-radius:10px;
+    text-align:center;
+    font-size: 20px;
+    color: #3C3D3F;
+    background: #ffffff;
+    border: 2px #3C3D3F solid;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.signin_form .btn:hover {
+    background: #3C3D3F;
+    color: #ffffff;
+}
+
+.signin_form{
+    margin-top:20px;
+    border-radius: 10px;
+    border: 2px #3C3D3F solid;
+    padding:20px 10px 10px 10px;
+    display:flex;
+    flex-direction: column;
+    width: 60%
+}
+
+.signin_form .form_title{
+    font-size:20px;
+    font-weight:bold;
+    margin:-20px -10px 20px -10px;
+    padding:10px 0px 10px 25px;
+    color:white;
+    background-color: #3C3D3F;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.signin_form .form_element{
+     margin-bottom:10px;
+     font-size: 20px;
+     border-radius:10px;
+     padding:5px 10px 5px 10px;
+}
+
+/* This snippet of code was generated using: http://css3buttongenerator.com/ */
+
+.signin_form .btn{
+    border-radius:10px;
+    text-align:center;
+    font-size: 20px;
+    color: #3C3D3F;
+    background: #ffffff;
+    border: 2px #3C3D3F solid;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.signin_form .btn:hover {
+    background: #3C3D3F;
+    color: #ffffff;
+}
+
+.signup_form{
+    margin-top:20px;
+    border-radius: 10px;
+    border: 2px #3C3D3F solid;
+    padding:20px 10px 10px 10px;
+    display:flex;
+    flex-direction: column;
+    width: 60%
+}
+
+.signupform .form_title{
+    font-size:20px;
+    font-weight:bold;
+    margin:-20px -10px 20px -10px;
+    padding:10px 0px 10px 25px;
+    color:white;
+    background-color: #3C3D3F;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.signup_form .form_element{
+     margin-bottom:10px;
+     font-size: 20px;
+     border-radius:10px;
+     padding:5px 10px 5px 10px;
+}
+
+/* This snippet of code was generated using: http://css3buttongenerator.com/ */
+
+.signup_form .btn{
+    border-radius:10px;
+    text-align:center;
+    font-size: 20px;
+    color: #3C3D3F;
+    background: #ffffff;
+    border: 2px #3C3D3F solid;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.signup_form .btn:hover {
+    background: #3C3D3F;
+    color: #ffffff;
+}
+
+.signup_form{
+    margin-top:20px;
+    border-radius: 10px;
+    border: 2px #3C3D3F solid;
+    padding:20px 10px 10px 10px;
+    display:flex;
+    flex-direction: column;
+    width: 60%
+}
+
+.signup_form .form_title{
+    font-size:20px;
+    font-weight:bold;
+    margin:-20px -10px 20px -10px;
+    padding:10px 0px 10px 25px;
+    color:white;
+    background-color: #3C3D3F;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.signup_form .form_element{
+     margin-bottom:10px;
+     font-size: 20px;
+     border-radius:10px;
+     padding:5px 10px 5px 10px;
+}
+
+/* This snippet of code was generated using: http://css3buttongenerator.com/ */
+
+.signup_form .btn{
+    border-radius:10px;
+    text-align:center;
+    font-size: 20px;
+    color: #3C3D3F;
+    background: #ffffff;
+    border: 2px #3C3D3F solid;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.signup_form .btn:hover {
+    background: #3C3D3F;
+    color: #ffffff;
+}
+#signup_button {
+    cursor: pointer;
+}
+#signin_button {
+    cursor: pointer;
+}
